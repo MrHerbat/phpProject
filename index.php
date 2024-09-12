@@ -27,7 +27,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <?php
         if($_SESSION["isAdmin"] == 1)
         {
-           echo  '<a href="adminView.php">Admin view</a>';
+           echo  '<a href="Admin/adminView.php">Admin view</a>';
         }
     ?>
 </body>
